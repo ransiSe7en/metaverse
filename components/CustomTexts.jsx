@@ -1,11 +1,11 @@
 'use client';
 
-import { textContainer, textVariant2 } from "../utils/motion";
-import { motion } from "framer-motion";
+import { textContainer, textVariant2 } from '../utils/motion';
+import { motion } from 'framer-motion';
 
-export const TypingText = ({title, textStyles}) => (
+export const TypingText = ({ title, textStyles }) => (
   <motion.p
-    variants={textContainer}
+    variants={ textContainer }
     className={`font-normal text-[14px] text-secondary-white ${textStyles}`}
   >
     {Array.from(title).map((letter, index) => (

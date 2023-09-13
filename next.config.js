@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  output: "export",
+  output: "standalone",
   basePath: "/metaverse",
   images: {
     unoptimized: true,
